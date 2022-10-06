@@ -1,0 +1,5 @@
+[devops]
+name = Productivity DevOps yum repo
+baseurl = http://yum.dop.sfdc.net/yum/tools/
+enabled = 0
+gpgcheck = 0

@@ -1,0 +1,23 @@
+@Library('sfci-pipeline-sharedlib@master') _
+
+env.RELEASE_BRANCHES = ['master']
+
+//executePipeline() {
+//    stage('Init') {
+//        checkout scm
+        //mavenInit()
+//    }
+
+    /*stage('Build') {
+        mavenBuild()
+    }
+    
+    stage('Publish Docker Image') {
+        mavenDockerReleaseBuild()
+    }
+
+    stage('Publish Docker Image') {
+       mavenDockerP2PStage([promote_to_falcon:true])
+       mavenDockerP2PPromote([promote_to_falcon:true])
+    }*/
+//}
